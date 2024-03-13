@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    background-color: #fff;
+    min-height: 40vh;
+    width: 49vh;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+h2{
+    padding-left: 2rem;
+    padding-right: 1rem;
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+form label{
+  font-size: 20px;
+  padding-left: 1rem;
+}
+.amount_input{
+    width: 60%;
+    height: 2rem;
+}
+form input, button{
+    width: 90%;
+    height: 2rem;
+    margin: 1rem;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem;
+}
+.flag_dropbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+    width: 9rem;
+    border-radius: 0.5rem;
+}
+ i{
+    font-size: 2rem;
+}
+select{
+    outline: none;
+    border: none;
+    font-size: 1rem;
+}
+input{
+    border: 1px solid lightgray;
+    border-radius: 0.50rem;
+}
+.ans{
+    text-align: center;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+}
+button{
+    border-radius: 0.5rem;
+}
+
+
